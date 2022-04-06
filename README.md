@@ -3,5 +3,5 @@ This is my final Year project using Machine Learning and Neural Networks to pred
 
 Team Members:
 1. Nitin Das
-2. s
-3. r
+2. Rituraj Singh
+3. Shashi Prakash Gupta
