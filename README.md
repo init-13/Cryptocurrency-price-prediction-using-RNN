@@ -11,6 +11,7 @@ This is the final Year project using Machine Learning and Neural Networks to pre
 
 ## About RNN-LSTM:
 
+RNN is a recurrent Neural Network. LSTM is used in training log sequential models, to avoid gradient exploding.
 
 
 
