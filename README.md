@@ -3,7 +3,7 @@ This is the final Year project using Machine Learning and Neural Networks to pre
 
 ## Tech Stack Used:
 
-**Python (sckit-learn,numpy,pandas,keras,tenserflow)** -> For Data Scrapping, cleaning, wrangling and training neural network.
+**Python (sckit-learn,numpy,pandas,keras,tenserflow)** -> For Data Scrapping, cleaning, wrangling and training neural network(RNN).
 
 **Web Development(HTML,CSS,JS,React)** -> For deploying interactive website to illustrate and visualize the results.
 
