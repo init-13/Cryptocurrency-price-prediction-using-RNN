@@ -1,10 +1,22 @@
-
+'''
 from dataprepare import getRawData, prepare_data
 from showOutput import trainModel predictModel
-
+'''
 def finalOutput(window_len = 5, test_size = 0.1, zero_base = True, lstm_neurons = 300, epochs = 50, batch_size = 36, loss = 'mse', dropout = 0.2, optimizer = 'adam'):
-
-
+    
+   
+    
+    optimzer = optimizer.lower()
+    
+    mapper = {'Mean Squared Error (MSE)':'mse', 'Mean Absolute Error (MAE)':'mae', 'Huber Loss':'huberloss'}
+    
+    if loss in mapper:
+        print(True)
+        loss = mapper[loss]
+        
+    print(lstm_neurons, epochs , batch_size , loss , optimizer )
+    
+'''
     target_col = "close"
     
     hist = getRawData()
@@ -16,7 +28,7 @@ def finalOutput(window_len = 5, test_size = 0.1, zero_base = True, lstm_neurons 
     predictModel(test, model,target_col,window_len,X_test)
 
     
-
+'''
     
 
     
