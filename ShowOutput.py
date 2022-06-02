@@ -3,6 +3,7 @@ import requests
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+from sklearn.metrics import r2_score
 from LSTMmodel import build_lstm_model
 
 def trainModel(lstm_neurons, dropout, loss, optimizer, batch_size, epochs, X_train, y_train, X_test, y_test):
@@ -27,5 +28,7 @@ def predictModel(test, model,target_col,window_len,X_test,line_plot):
     preds = test[target_col].values[:-window_len] * (preds + 1)
     preds = pd.Series(index=targets.index, data=preds)
     line_plot(targets, preds, 'actual', 'prediction', lw=3)
+    print("Accuracy ->",100 *(r2_score(targets, preds)))
+
 
     
