@@ -1,4 +1,4 @@
-# PROJECT---Analysis-and-Prediction-of-Cryptocurrency-Price-Using-RNN
+# PROJECT---Prediction-of-Cryptocurrency-Price-Using-RNN
 This is the final Year project using Machine Learning and Neural Networks to predict cryptocurrency prices.
 
 ## Tech Stack Used:
